@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    If a bug is newly introduced, which means the older version doesn't have it but the newer one has, 
+    Then this bug must be having some concerns with this change。 So viewing the diff can help.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	In the process of changing a file every change will introduce expected or unexpected consequences, which we will 
+	often need to go back to check out how things are going. At this time the ability of easy access to the entire
+	history of this file will do a great help.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Manually choosing when to create a commit often make the commit reasonable and logical.
+	But if you isn't used to committing when you need to commit, it may be helpful to work along
+	with automatical version control tools.
+   
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Often one project consists of multiple files, and they're connected. If we don't check in all the files in one commit,
+    it will be annoy to find which version of which file populate the same version of project.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log show me what kind of changes have made by who at what time in each commit. So by skimming that log I can find out
+    how files have changed.
+    Once I find a commit which interests me, I can type git diff ID1 ID2 to review the details about how that changes happened.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I always can restore my current version to any previous version through git checkout ID.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to set up my first project on it.
