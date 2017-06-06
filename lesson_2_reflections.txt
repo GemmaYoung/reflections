@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Git create a hidden directory .git where I create the repository. .git is used to store metadata of files history of my repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is a buffer area when transferring files from working directory to repository. It allows you to commit once a couple of files. 
