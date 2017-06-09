@@ -5,3 +5,16 @@ Git create a hidden directory .git where I create the repository. .git is used t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is a buffer area when transferring files from working directory to repository. It allows you to commit once a couple of files. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Sometimes one logical change concerns more than one file changes. This time staging area could be used to buffer the multiple changes and later commit them all at once.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to keep both origianl and another version of the master branch, which could change the master to some other types or purposes, I need to create new braches other than change on the master itself. That could make the master and non-master branches to advance forward seperately and interact nothing to each other.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams show me if I enter git log which commits would shown up and
+if or not can I reach a certain commit.
