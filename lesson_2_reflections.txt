@@ -1,20 +1,32 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do it?
 
 Git create a hidden directory .git where I create the repository. .git is used to store metadata of files history of my repository.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is a buffer area when transferring files from working directory to repository. It allows you to commit once a couple of files. 
 
-How can you use the staging area to make sure you have one commit per logical change?
+3. How can you use the staging area to make sure you have one commit per logical change?
 
 Sometimes one logical change concerns more than one file changes. This time staging area could be used to buffer the multiple changes and later commit them all at once.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When I want to keep both origianl and another version of the master branch, which could change the master to some other types or purposes, I need to create new braches other than change on the master itself. That could make the master and non-master branches to advance forward seperately and interact nothing to each other.
 
-How do the diagrams help you visualize the branch structure?
+5. How do the diagrams help you visualize the branch structure?
 
 The diagrams show me if I enter git log which commits would shown up and
 if or not can I reach a certain commit.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It will create a new merge commit on the checked-out branch including changes on both branches. From the merge commit any commit on the two
+branches could be reachable.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves time and energy, but often can't effectively deal with conflicts 
+Manual merging could be used all the time when merging, but it will take more time sometimes be annoying to review and compare code.
+
+
