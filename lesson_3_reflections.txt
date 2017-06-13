@@ -14,3 +14,7 @@ Forks is also copying an existing reposity otherwise in GitHub Server instead of
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 This will help to deal with conflict between local repository and its responding remote.
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We would use SVN to collaborate with each other. Learning curve for SVN would be easier. But if any of us isn't connected to 
+the remote repository, working with Git will be easier.
