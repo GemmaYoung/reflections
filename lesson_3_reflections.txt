@@ -6,3 +6,11 @@ I want to share my work to other persons I wil create a remote to my local repos
 
 Because I want to pull changes from remote only when the changes occured on the remote have enough meaning, which means there are
 often multiple commits to update. If automatically pulling, GitHub will not be able to recognize when or not to pull.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches happened inside a repository. Clones are used to copy an existing repository whether or not from GitHub to local. 
+Forks is also copying an existing reposity otherwise in GitHub Server instead of local.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+This will help to deal with conflict between local repository and its responding remote.
