@@ -18,3 +18,8 @@ This will help to deal with conflict between local repository and its responding
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 We would use SVN to collaborate with each other. Learning curve for SVN would be easier. But if any of us isn't connected to 
 the remote repository, working with Git will be easier.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I want to make another version of the current master but still keeping the master growing on itself, or I am collaborating with
+other people to negotiate unready changes intent to commit on the master. Work flow will be more complicated if making changes in seperate branches.
+But it make collaboration and negotiation on changes more reasonable.
